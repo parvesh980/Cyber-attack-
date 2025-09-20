@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Attacks: Prevention, Protection, and Awareness</title>
+  <style>
+    html {
+      scroll-behavior: smooth; /* Smooth scroll */
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    /* 🔥 Animated Banner */
+    header {
+      background: linear-gradient(135deg, #0a3d62, #1e3799, #e74c3c, #e67e22);
+      background-size: 400% 400%;
+      animation: gradientMove 10s ease infinite;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      overflow: hidden;
+    }
+    @keyframes gradientMove {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    header h1 {
+      font-size: 2.2em;
+      margin: 0;
+      animation: fadeInDown 2s ease-in-out;
+    }
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+      animation: fadeInUp 2s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      0% {opacity: 0; transform: translateY(-50px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      0% {opacity: 0; transform: translateY(50px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    nav {
+      background: #1e3799;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #1e3799;
+      font-size: 1.6em;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      margin: 12px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 0.95em;
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* 🔥 Animated Gradient Button */
+    .btn {
+      display: inline-block;
+      background: linear-gradient(270deg, #e74c3c, #e67e22, #f39c12);
+      background-size: 600% 600%;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      margin-top: 10px;
+      animation: gradientButton 5s ease infinite;
+      transition: all 0.3s ease-in-out;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(255,140,0,0.9);
+    }
+    @keyframes gradientButton {
+      0%{background-position:0% 50%;}
+      50%{background-position:100% 50%;}
+      100%{background-position:0% 50%;}
+    }
+
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 12px 10px;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    /* 📱 Mobile Responsive */
+    @media only screen and (max-width: 768px) {
+      header h1 { font-size: 1.8em; }
+      header p { font-size: 1em; }
+      nav a { margin: 0 8px; font-size: 0.85em; }
+      h2 { font-size: 1.4em; }
+      .card { font-size: 0.9em; }
+      .btn { padding: 10px 20px; font-size: 0.95em; }
+      section { padding: 30px 15px; }
+    }
+    @media only screen and (max-width: 480px) {
+      header h1 { font-size: 1.5em; }
+      header p { font-size: 0.95em; }
+      nav a { margin: 0 5px; font-size: 0.8em; }
+      h2 { font-size: 1.2em; }
+      .card { font-size: 0.85em; }
+      .btn { width: 100%; padding: 10px; font-size: 0.9em; }
+      section { padding: 25px 10px; }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Cyber Attacks: Prevention, Protection, and Awareness</h1>
+  <p>Stay Safe in the Digital World 🔐</p>
+</header>
+
+<nav>
+  <a href="#types">Types</a>
+  <a href="#prevention">Prevention</a>
+  <a href="#protection">Protection</a>
+  <a href="#awareness">Awareness</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="types">
+  <h2>Types of Cyber Attacks</h2>
+  <div class="card"><b>Phishing:</b> Fake emails or websites that steal personal information.</div>
+  <div class="card"><b>Malware:</b> Harmful software that damages or steals data.</div>
+  <div class="card"><b>Ransomware:</b> Locks files until ransom is paid.</div>
+  <div class="card"><b>DDoS:</b> Overloading servers to crash websites.</div>
+</section>
+
+<section id="prevention">
+  <h2>Prevention Tips</h2>
+  <ul>
+    <li>Use strong and unique passwords</li>
+    <li>Enable two-factor authentication</li>
+    <li>Keep software and systems updated</li>
+    <li>Avoid clicking suspicious links</li>
+  </ul>
+</section>
+
+<section id="protection">
+  <h2>Protection Tools</h2>
+  <p>Use Firewalls, VPNs, Antivirus software, Encryption methods, and regular data backups to protect your systems.</p>
+</section>
+
+<section id="awareness">
+  <h2>Awareness</h2>
+  <p>Organize training, campaigns, and awareness programs. Report cyber crimes at <b>cybercrime.gov.in</b>.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact / Feedback</h2>
+  <p>Click the button below to fill the survey:</p>
+  <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdUT45josMg-4f6Z2DGpfv4gA-yy3GCWjpUhXY8x2po-5dSIw/viewform?usp=header" target="_blank">Cyber Attack Survey</a>
+</section>
+
+<footer>
+  <p>© 2025 Cyber Security Awareness | Designed for Project/Presentation</p>
+</footer>
+
+</body>
+</html>
